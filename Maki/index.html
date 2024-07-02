@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>MAKI</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img id="menu_responsive" src="Images/icons/menu_icon.png" alt="Icono menú" onclick="deploy_menu()">
+            <a href="#slider_section">
+                <img  id="logo" src="Images/logo.png" alt="Logo">
+            </a>
+            <div class="menu" id="menu">
+                <div id="nuestro_equipo">
+                    <a href="#nuestro_equipo_section" onclick="deploy_menu()">nuestro equipo</a>
+                </div>
+                <div id="nosotros">
+                    <a href="#nosotros_section" onclick="deploy_menu()">nosotros</a>
+                </div>
+                <div id="eventos">
+                    <a href="#slider_eventos" onclick="deploy_menu()">eventos</a>
+                </div>
+            </div>
+            <div class="buttons">
+                <div id="user_btn">
+                    <img src="Images/icons/user_icon.png" alt="Icono usuario" onclick="deploy_contact_window()">
+                </div>
+            </div>
+            <div id="contact_window">
+                <p id="close" onclick="deploy_contact_window()">X</p>
+                <p>Llámanos a los números:</p>
+                <div>
+                    <span>(604) 445 50 40</span>
+                    <span>322 358 0271</span>
+                </div>
+                <p>Escríbenos al correo:</p>
+                <div>
+                    <span>servicioalcliente@fundamaki.com.co</span>
+                </div>
+            </div>
+        </nav>
+        <section class="slider_section" id="slider_section">
+            <div class="slider">
+                <ul>
+                    <li>
+                        <img class="slide_image" src="Images/Slider_principal/slider_img_1.jpg" alt="Imagen 1">
+                        <img class="responsive_slide_image" src="Images/Slider_principal/responsive_slider_img_1.jpg" alt="Imagen 1">
+                    </li>
+                    <li>
+                        <img class="slide_image" src="Images/Slider_principal/slider_img_2.jpg" alt="Imagen 2">
+                        <img class="responsive_slide_image" src="Images/Slider_principal/responsive_slider_img_2.jpg" alt="Imagen 2">
+                    </li>
+                    <li>
+                        <img class="slide_image" src="Images/Slider_principal/slider_img_3.jpg" alt="Imagen 3">
+                        <img class="responsive_slide_image" src="Images/Slider_principal/responsive_slider_img_3.jpg" alt="Imagen 3">
+                    </li>
+                    <li>
+                        <img class="slide_image" src="Images/Slider_principal/slider_img_4.jpg" alt="Imagen 4">
+                        <img class="responsive_slide_image" src="Images/Slider_principal/responsive_slider_img_4.jpg" alt="Imagen 4">
+                    </li>
+                </ul>
+            </div>
+            <div class="intro">
+                <p><span class="maki_uppercase">LA FUNDACIÓN MAKI</span>, busca ser una organización que permita el cambio en las realidades de las familias en sectores vulnerables y en crecimiento desde la enseñanza de los conocimientos artísticos, estéticos y culturales para posibilitar emprendimientos de nuestra población.</p>
+            </div>
+        </section>
+        <section id="nuestro_equipo_section">
+            <h1 class="title_section">nuestro equipo</h1>
+            <div class="team">
+                <div class="card">
+                    <img class="foto" src="Images/Nuestro_equipo/team_img_1.jpg" alt="Foto integrante">
+                    <p class="nombre">JUAN VILLARREAL</p>
+                    <p class="descripcion">Estudiante de Diseño Gráfico, con más de 6
+                        años de experiencia en elaborar piezas
+                        audiovisuales desde un componente
+                        social y empresarial.</p>
+                </div>
+                <div class="card">
+                    <img class="foto" src="Images/Nuestro_equipo/team_img_2.jpg" alt="Foto integrante">
+                    <p class="nombre">ALEX TACHACK</p>
+                    <p class="descripcion">Diseñador gráfico de profesión y artista por
+                        vocación. con experiencia de 10 años en
+                        organización de procesos y estandarización
+                        de actividades del diseño gráfico, gestor de
+                        campañas publicitarias y creador de material
+                        gráfico para campañas publicitarias en
+                        diferentes sectores comerciales.</p>
+                </div>
+                <div class="card">
+                    <img class="foto" src="Images/Nuestro_equipo/team_img_3.jpg" alt="Foto integrante">
+                    <p class="nombre">SERGIO PEREZ</p>
+                    <p class="descripcion">Lic. En Ciencias Sociales con más de 3 años de
+                        experiencia en procesos sociales, procesos
+                        educativos y actos pedagógicos, tanto en
+                        voluntariados, como actividades en
+                        fundaciones y empresas privadas.</p>
+                </div>
+                <div class="card">
+                    <img class="foto" src="Images/Nuestro_equipo/team_img_4.jpg" alt="Foto integrante">
+                    <p class="nombre">PAULA ABRIL</p>
+                    <p class="descripcion">Tecnóloga en contabilidad y finanzas del Sena y
+                        profesional en administración de empresas de la
+                        universidad central de Colombia, con experiencia
+                        de 10 años en procesos organizacionales, manejos
+                        básicos contables, compras, inventarios, manejo de
+                        personal, manejo financiero, gestión de ventas y
+                        aplicaciones básicas de marketing digital.</p>
+                </div>
+                <div class="card">
+                    <img class="foto" src="Images/Nuestro_equipo/team_img_5.jpg" alt="Foto integrante">
+                    <p class="nombre">JAIRO TACHACK</p>
+                    <p class="descripcion">Ingeniero Industrial, con experiencia de 5
+                        años en organización y estandarización de
+                        procesos industriales, control, rotaciones,
+                        reducción en niveles y mermas de inventarios,
+                        actualmente con Cargo de coordinador de
+                        Planeación y logística en empresa del sector
+                        industrial de los empaques.</p>
+                </div>
+                <div class="card">
+                    <img class="foto" src="Images/Nuestro_equipo/team_img_6.jpg" alt="Foto integrante">
+                    <p class="nombre">NIVIA ABRIL</p>
+                    <p class="descripcion">Técnica en educación preescolar de profesión
+                        y artista por vocación, con 30 años de
+                        experiencia en actividades artísticas como
+                        encolados, costura, y decoración.</p>
+                </div>
+            </div>
+        </section>
+        <section id="nosotros_section">
+            <h1 class="title_section">nosotros</h1>
+            <div class="blue_container">
+                <div id="obetivos">
+                    <h1>objetivos</h1>
+                    <p><span class="maki_uppercase">LA FUNDACIÓN MAKI</span>, busca ser una organización que permita el cambio en las
+                        realidades de las familias en las diferentes clases sociales y en el crecimiento desde
+                        la enseñanza de los conocimientos artísticos, estéticos y culturales para posibilitar
+                        emprendimientos de nuestra población.
+                        Para ello queremos desde una landing page posicionar la marca y que las personas
+                        que quieran adquirir nuestros servicios tengan una mejor experiencia para.</p>
+                </div>
+                <div id="mision">
+                    <h1>misión</h1>
+                    <p>Somos una organización con amplio conocimiento en las artes y
+                        oficios, apasionados por la cultura y el desarrollo del ser humano,
+                        para generar cambios en las realidades de las familias en sectores
+                        vulnerables y en crecimiento, por ello, la <span class="maki_uppercase">LA FUNDACIÓN MAKI</span>, brindará
+                        estrategias prácticas para transformar las condiciones de vida de las
+                        personas por medio de estrategias de intervención en las
+                        comunidades empleando las artes y oficios</p>
+                </div>
+                <div id="vision">
+                    <h1>visión</h1>
+                    <p>Para el 2027, la <span class="maki_uppercase">LA FUNDACIÓN MAKI</span> se posicionará como una
+                        organización referente en el apoyo de familias vulnerables y en
+                        crecimiento del país, transformando los contextos sociales de nuestra
+                        población, a través, de técnicas artísticas y de oficios para así
+                        multiplicar los conocimientos de la cultura, la estética y el
+                        emprendimiento</p>
+                </div>
+            </div>
+        </section>
+        <section id="slider_eventos">
+            <h1 class="title_section">eventos</h1>
+            <div class="slider">
+                <ul>
+                    <li>
+                        <img class="slide_image" src="Images/Eventos/slider_img_1.jpg" alt="Imagen 1">
+                        <img class="responsive_slide_image" src="Images/Slider_principal/responsive_slider_img_1.jpg" alt="Imagen 1">
+                    </li>
+                    <li>
+                        <img class="slide_image" src="Images/Eventos/slider_img_2.jpg" alt="Imagen 2">
+                        <img class="responsive_slide_image" src="Images/Slider_principal/responsive_slider_img_2.jpg" alt="Imagen 2">
+                    </li>
+                    <li>
+                        <img class="slide_image" src="Images/Eventos/slider_img_3.jpg" alt="Imagen 3">
+                        <img class="responsive_slide_image" src="Images/Slider_principal/responsive_slider_img_3.jpg" alt="Imagen 3">
+                    </li>
+                    <li>
+                        <img class="slide_image" src="Images/Eventos/slider_img_4.jpg" alt="Imagen 4">
+                        <img class="responsive_slide_image" src="Images/Slider_principal/responsive_slider_img_4.jpg" alt="Imagen 4">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <img id="logo" src="Images/logo.png" alt="Logo">
+            <div class="social_media">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="Images/icons/instagram_icon.png" alt="Logo Instagram">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="Images/icons/facebook_icon.png" alt="Logo Facebook">
+                </a>
+                <a href="https://www.whatsapp.com/" target="_blank">
+                    <img src="Images/icons/whatsapp_icon.png" alt="Logo Whatsapp">
+                </a>
+            </div>
+            <div class="copyright">
+                <img src="Images/icons/copyright_icon.png" alt="Icono copyright">
+                <p>2022 fundación Maki</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function deploy_menu(){
+            var x = document.getElementById("menu");
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        function deploy_contact_window(){
+            var y = document.getElementById("contact_window");
+            if(y.style.display === "block"){
+                y.style.display = "none";
+            } else {
+                y.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
